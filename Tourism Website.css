@@ -1,0 +1,508 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+}
+.header
+{
+	min-height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(4, 9, 30, 0.7),rgba(4, 9, 30, 0.7)),
+	url(images/banner1.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+nav
+{
+	display: flex;
+	padding: 2% 6%;
+	justify-content: space-between;
+	align-items: center;
+}
+nav img
+{
+	width: 100px;
+	border-radius: 15px;
+	opacity: 50%;
+	transition: 0.5s;
+}
+nav img:hover
+{
+	width: 105px;
+	opacity: 100%;
+}
+.nav-links
+{
+	flex: 1;
+	text-align: right;
+}
+.nav-links ul li
+{
+	list-style: none;
+	display: inline-block;
+	padding: 8px 12px;
+	position: relative;
+}
+.nav-links ul li a
+{
+	color: #fff;
+	text-decoration: none;
+	font-size: 15px;
+}
+.nav-links ul li::after
+{
+	content: ' ';
+	width: 0;
+	height: 2px;
+	background: #F9AA0A;
+	display: block;
+	margin: auto;
+	transition: 0.5s;
+}
+.nav-links ul li:hover::after
+{
+	width: 100%;
+}
+.text-box
+{
+	width: 90%;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+.text-box h1
+{
+	font-size: 44px;
+}
+.text-box p
+{
+	margin: 25px 0 40px;
+	font-size: 15px;
+	color: #fff;
+}
+.hero-btn
+{
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	border: 1px solid #fff;
+	padding: 12px 34px;
+	font-size: 13px;
+	background: transparent;
+	position: relative;
+	cursor: pointer;
+}
+.hero-btn:hover
+{
+	border: 1px solid #f44336;
+	background: #f44336;
+	transition: 1s;
+}
+
+.hero-btn1
+{
+	display: inline-block;
+	text-decoration: none;
+	color: #8E44AD;
+	border: 1px solid #02D6FF;
+	padding: 12px 34px;
+	font-size: 13px;
+	background: transparent;
+	position: relative;
+	cursor: pointer;
+}
+.hero-btn1:hover
+{
+	border: 1px solid #f44336;
+	background: #f44336;
+	transition: 1s;
+}
+
+/*----------TEMPLES-----------*/
+.temples
+{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+}
+.temples-col
+{
+	flex-basis: 32%;
+	border-radius: 10px;
+	margin-bottom: 30%;
+	position: relative;
+	overflow: hidden;
+	border: 0 solid cyan;
+	transition: 0.5s;
+}
+.temples-col:hover
+{
+	border: 3px solid blueviolet;
+}
+.temples-col img
+{
+	width: 100%;
+	height: 200px;
+}
+h1
+{
+	font-size: 36px;
+	font-weight: 300;
+	line-height: 22px;
+	padding: 10;
+
+}
+p
+{
+	color: 777;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 22px;
+	padding-top: 2%;
+	margin: 0;
+	padding: 0;
+}
+.row
+{
+	margin-top: 5%;
+	display: flex;
+	justify-content: space-between;	
+}
+
+h3
+{
+	text-align: center;
+	font-weight: 600;
+	margin: 10px 0;
+}
+
+/*-----------------------CAVES---------------------*/
+
+.caves
+{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 1px;
+}
+.caves-col
+{
+	flex-basis: 32%;
+	border-radius: 10px;
+	margin-bottom: 30%;
+	position: relative;
+	overflow: hidden;
+	border: 0 solid cyan;
+	transition: 0.5s;
+}
+.caves-col:hover
+{
+	border: 3px solid blueviolet;
+}
+.caves-col img
+{
+	width: 100%;
+	height: 200px;
+}
+h1
+{
+	font-size: 36px;
+	font-weight: 300;
+	line-height: 22px;
+	padding: 10;
+
+}
+p
+{
+	color: 777;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 22px;
+	padding: 10px;
+	padding-top: 2%;
+}
+.row
+{
+	margin-top: 5%;
+	display: flex;
+	justify-content: space-between;	
+}
+
+h3
+{
+	text-align: center;
+	font-weight: 600;
+	margin: 10px 0;
+}
+
+/*-----------------------HILL STATIONS---------------------*/
+
+.hill-points
+{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 5px;
+}
+.hill-points-col
+{
+	flex-basis: 32%;
+	border-radius: 10px;
+	margin-bottom: 30%;
+	position: relative;
+	overflow: hidden;
+	border: 0 solid cyan;
+	transition: 0.5s;
+}
+.hill-points-col:hover
+{
+	border: 3px solid blueviolet;
+}
+.hill-points-col img
+{
+	width: 100%;
+	height: 200px;
+}
+h1
+{
+	font-size: 36px;
+	font-weight: 300;
+	line-height: 22px;
+	padding: 10;
+
+}
+p
+{
+	color: 777;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 22px;
+	padding: 10px;
+	padding-top: 2%;
+}
+.row
+{
+	margin-top: 5%;
+	display: flex;
+	justify-content: space-between;	
+}
+
+h3
+{
+	text-align: center;
+	font-weight: 600;
+	margin: 10px 0;
+}
+
+/*----------------------------FORTS------------------*/
+
+.forts
+{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 5px;
+}
+.forts-col
+{
+	flex-basis: 32%;
+	border-radius: 10px;
+	margin-bottom: 30%;
+	position: relative;
+	overflow: hidden;
+	border: 0 solid cyan;
+	transition: 0.5s;
+}
+.forts-col:hover
+{
+	border: 3px solid blueviolet;
+}
+.forts-col img
+{
+	width: 100%;
+	height: 200px;
+}
+h1
+{
+	font-size: 36px;
+	font-weight: 300;
+	line-height: 22px;
+	padding: 10;
+
+}
+p
+{
+	color: 777;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 22px;
+	padding: 10px;
+	padding-top: 2%;
+}
+.row
+{
+	margin-top: 5%;
+	display: flex;
+	justify-content: space-between;	
+}
+
+h3
+{
+	text-align: center;
+	font-weight: 600;
+	margin: 10px 0;
+}
+
+/*------------------------------------------WILDLIFE--------------------------*/
+
+.wildlife
+{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 5px;
+}
+.wildlife-col
+{
+	flex-basis: 32%;
+	border-radius: 10px;
+	margin-bottom: 30%;
+	position: relative;
+	overflow: hidden;
+	border: 0 solid cyan;
+	transition: 0.5s;
+}
+.wildlife-col:hover
+{
+	border: 3px solid blueviolet;
+}
+.wildlife-col img
+{
+	width: 100%;
+	height: 200px;
+}
+h1
+{
+	font-size: 36px;
+	font-weight: 300;
+	line-height: 22px;
+	padding: 10;
+
+}
+p
+{
+	color: 777;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 22px;
+	padding: 10px;
+	padding-top: 2%;
+}
+.row
+{
+	margin-top: 5%;
+	display: flex;
+	justify-content: space-between;	
+}
+
+h3
+{
+	text-align: center;
+	font-weight: 600;
+	margin: 10px 0;
+}
+
+/*---------------------------------CALL TO ACTION-----------------*/
+
+.cta
+{
+	margin: 50px auto;
+	width: 98%;
+	height: 300px;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),
+	url(images/banner2.jpg);
+	background-position: center;
+	background-size: cover;
+	border-radius: 20px;
+	text-align: center;
+	padding: 100px 0;
+}
+.cta h1
+{
+	color: #fff;
+	margin-bottom: 25px;
+	padding: 10px;
+	font-family: 'Dancing Script', cursive;
+	
+}
+.a
+{
+	font-family: 'Chivo Mono', monospace;
+	color: #fff;
+	margin-bottom: 25px;
+	padding: 10px;
+}
+
+/*---------------------------------FOOTER-----------------*/
+
+.footer
+{
+	width: 100%;
+	text-align: center;
+	padding: 30px 0;
+}
+.footer h4
+{
+	margin-bottom: 25px;
+	
+	font-weight: 600;
+	padding-top: 5px;
+}
+.footer p
+{
+	color: 	#808080;
+}
+.icons .fa
+{
+	color: #BBC9F2;
+	margin: 0 13px;
+	cursor: pointer;
+	padding: 18px 0;
+}
+.owner
+{
+	color: #f44336;
+}
+.owner:hover
+{
+	color: #800000;
+	font-size: 20px;
+}
+
+/*-------------------------------SEE MORE-------------------------*/
+
+.btn
+{
+	display: inline-block;
+	text-decoration: none;
+	color: #4DA2F8;
+	border: 1px solid black;
+	padding: 12px 34px;
+	font-size: 13px;
+	position: relative;
+	cursor: pointer;
+	width: 100%;
+
+
+}
+.btn:hover
+{
+	border: 1px solid #f44336;
+	background: #f44336;
+	transition: 1s;
+}
